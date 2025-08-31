@@ -30,14 +30,15 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
-        {/* ✅ Umami Analytics */}
+      </head>
+      <body className="font-body antialiased">
+        {/* ✅ Umami Analytics (needs to be inside <body>, not <head>) */}
         <Script
           src="https://cloud.umami.is/script.js"
           data-website-id="5f08c4ca-82b9-4f56-ada1-eb43351f52cc"
           strategy="afterInteractive"
         />
-      </head>
-      <body className="font-body antialiased">
+
         <AuthProvider>
           {children}
           <Toaster />
