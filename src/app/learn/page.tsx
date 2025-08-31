@@ -115,8 +115,8 @@ export default function LearnPage() {
       console.error(error);
       toast({
         variant: "destructive",
-        title: "Error Generating Step Content",
-        description: "Could not generate content for this step. Please try again.",
+        title: "Not so fast!",
+        description: "Lightly is still under construction, so wait a few minutes so all steps are processed.",
       });
     }
   };
