@@ -1,11 +1,15 @@
+
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { AuthProvider } from '@/hooks/use-auth';
 
 export const metadata: Metadata = {
-  title: 'Mastery Path',
-  description: 'Master any subject with AI-generated learning paths.',
+  title: 'LumiosAI',
+  description: 'Your personal AI guide to mastering any subject.',
+  icons: {
+    icon: '/tab.png',
+  },
 };
 
 export default function RootLayout({
