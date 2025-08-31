@@ -5,10 +5,10 @@ import { Toaster } from "@/components/ui/toaster"
 import { AuthProvider } from '@/hooks/use-auth';
 
 export const metadata: Metadata = {
-  title: 'LumiosAI',
+  title: 'Lightly - Learn Anything, Faster',
   description: 'Your personal AI guide to mastering any subject.',
   icons: {
-    icon: '/tab.png',
+    icon: 'tab.png',
   },
 };
 

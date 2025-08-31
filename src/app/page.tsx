@@ -44,7 +44,7 @@ export default function LandingPage() {
             Master Any Subject, Step-by-Step
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mb-8">
-            Mastery Path uses AI to create personalized learning courses on any topic. Go from beginner to expert with a structured, easy-to-follow plan.
+            Lightly uses AI to create personalized learning courses on any topic. Go from beginner to expert with a structured, easy-to-follow plan.
           </p>
           <div className="flex gap-4">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -94,7 +94,7 @@ export default function LandingPage() {
 
       <footer className="bg-card border-t">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Mastery Path. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Lightly. All rights reserved.</p>
         </div>
       </footer>
     </div>

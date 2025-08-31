@@ -76,7 +76,7 @@ export default function TopicSelection({ onGenerateCourse, isGenerating }: Topic
                         <TabsList className="grid w-full grid-cols-3">
                           <TabsTrigger value="20">Overview</TabsTrigger>
                           <TabsTrigger value="50">Deep Dive</TabsTrigger>
-                          <TabsTrigger value="100">Mastery</TabsTrigger>
+                          <TabsTrigger value="100">Expert mastery</TabsTrigger>
                         </TabsList>
                       </Tabs>
                     </FormControl>
