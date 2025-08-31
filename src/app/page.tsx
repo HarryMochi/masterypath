@@ -39,6 +39,7 @@ export default function LandingPage() {
       </header>
 
       <main className="flex-1">
+        <meta name="google-site-verification" content="EsSDPwJXWmZ5S__qSV2-KhRhAtg8SzQnYfiz3AybDLU" />
         <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 flex flex-col items-center text-center">
           <h1 className="font-headline text-4xl md:text-6xl font-bold mb-4">
             Master Any Subject, Step-by-Step
