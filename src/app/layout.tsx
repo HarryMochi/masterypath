@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Lightly - Learn Anything, Faster',
   description: 'Your personal AI guide to mastering any subject.',
   icons: {
-    icon: 'tab.png',
+    icon: '/tab.png',
   },
 };
 
