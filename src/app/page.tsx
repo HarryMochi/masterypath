@@ -7,12 +7,16 @@ import Logo from '@/components/logo';
 import { BookOpenCheck, Zap, Bot } from 'lucide-react';
 import { useAuth } from '@/hooks/use-auth';
 import MainLayout from '@/components/main-layout';
+import { Head } from 'react-day-picker';
+
 
 export default function LandingPage() {
   const { user, loading } = useAuth();
 
   return (
+    
     <MainLayout>
+      
         <div className="flex flex-col min-h-screen bg-background">
       <header className="container mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <Logo />
@@ -37,6 +41,7 @@ export default function LandingPage() {
           )}
         </div>
       </header>
+      
 
       <main className="flex-1">
         
@@ -56,6 +61,7 @@ export default function LandingPage() {
             </Button>
           </div>
         </section>
+
 
         <section id="features" className="bg-muted py-20">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -102,3 +108,4 @@ export default function LandingPage() {
     </MainLayout>
   );
 }
+
